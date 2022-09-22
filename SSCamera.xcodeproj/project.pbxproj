@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE246F3421E3465500A2F251 /* SSCameraErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = FE246F3221E3465500A2F251 /* SSCameraErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE246F3521E3465500A2F251 /* SSCameraErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = FE246F3321E3465500A2F251 /* SSCameraErrors.m */; };
+		FE246F3621E3465500A2F251 /* SSCameraErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = FE246F3321E3465500A2F251 /* SSCameraErrors.m */; };
+		FE246F3921E347D900A2F251 /* SSCameraErrors.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FE246F3221E3465500A2F251 /* SSCameraErrors.h */; };
+		FE2593ED1C26147E0035B174 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDAD50F172B65B00072802E /* Foundation.framework */; };
+		FE2593EE1C26147E0035B174 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDAD50F172B65B00072802E /* Foundation.framework */; };
+		FE3FB7CF1E02F22400715208 /* SSCameraButton.h in Headers */ = {isa = PBXBuildFile; fileRef = FE3FB7C31E02F22400715208 /* SSCameraButton.h */; };
+		FE3FB7D01E02F22400715208 /* SSCameraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3FB7C41E02F22400715208 /* SSCameraButton.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FE3FB7D11E02F22400715208 /* SSCameraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3FB7C41E02F22400715208 /* SSCameraButton.m */; };
+		FE3FB7D21E02F22400715208 /* SSCameraIrisView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE3FB7C51E02F22400715208 /* SSCameraIrisView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE3FB7D31E02F22400715208 /* SSCameraIrisView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3FB7C61E02F22400715208 /* SSCameraIrisView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FE3FB7D41E02F22400715208 /* SSCameraIrisView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3FB7C61E02F22400715208 /* SSCameraIrisView.m */; };
+		FE3FB7D51E02F22400715208 /* SSCameraLayoutView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE3FB7C71E02F22400715208 /* SSCameraLayoutView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE3FB7D61E02F22400715208 /* SSCameraLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3FB7C81E02F22400715208 /* SSCameraLayoutView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FE3FB7D71E02F22400715208 /* SSCameraLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3FB7C81E02F22400715208 /* SSCameraLayoutView.m */; };
+		FE3FB7DB1E02F22400715208 /* SSCameraView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE3FB7CB1E02F22400715208 /* SSCameraView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE3FB7DC1E02F22400715208 /* SSCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3FB7CC1E02F22400715208 /* SSCameraView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FE3FB7DD1E02F22400715208 /* SSCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3FB7CC1E02F22400715208 /* SSCameraView.m */; };
+		FE3FB7E91E02F77100715208 /* libgraphics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4AD50E1836767300C44426 /* libgraphics.a */; };
+		FE4AD5111836771100C44426 /* SSGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4AD50A1836767300C44426 /* SSGraphics.framework */; };
+		FE55CEDC190E9563007827A0 /* SSBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE55CED7190E9555007827A0 /* SSBase.framework */; };
+		FE7CC2DD2200E0040068FB16 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE7CC2DB2200E0040068FB16 /* Localizable.strings */; };
+		FE8EB0C116969D090014C1E3 /* SSCameraDeviceChooser.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8EB0C316969D090014C1E3 /* SSCameraDeviceChooser.xib */; };
+		FEB17DCA1748EC6A00A0B834 /* SSCameraPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF46A6154073AD005696DC /* SSCameraPreviewView.m */; };
+		FEB17DD11748ECAF00A0B834 /* SSCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FEB17DCF1748ECAF00A0B834 /* SSCameraViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEB17DD21748ECAF00A0B834 /* SSCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB17DD01748ECAF00A0B834 /* SSCameraViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FEB17DD31748ECAF00A0B834 /* SSCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB17DD01748ECAF00A0B834 /* SSCameraViewController.m */; };
+		FEB17DD41748ECB800A0B834 /* SSCameraViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FEB17DCF1748ECAF00A0B834 /* SSCameraViewController.h */; };
+		FEC3858B17ECB478009B0904 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3858A17ECB478009B0904 /* AVFoundation.framework */; };
+		FEDAD525172B65FA0072802E /* SSCameraConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF1673B16AF73330078EB05 /* SSCameraConstants.m */; };
+		FEDDB709162546B300DCBCF1 /* SSCameraDeviceChooser.h in Headers */ = {isa = PBXBuildFile; fileRef = FEDDB707162546B300DCBCF1 /* SSCameraDeviceChooser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDDB70A162546B300DCBCF1 /* SSCameraDeviceChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDDB708162546B300DCBCF1 /* SSCameraDeviceChooser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FEDEEC2917494F920063902C /* SSCameraPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = FEDEEC2717494F920063902C /* SSCameraPanel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEEC2A17494F920063902C /* SSCameraPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDEEC2817494F920063902C /* SSCameraPanel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FEDEEC2D1749558C0063902C /* SSCameraWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = FEDEEC2B1749558C0063902C /* SSCameraWindowController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEEC2E1749558C0063902C /* SSCameraWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDEEC2C1749558C0063902C /* SSCameraWindowController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FEDF467A154072E7005696DC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDF4679154072E7005696DC /* Cocoa.framework */; };
+		FEDF469F1540734C005696DC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDF469A1540734C005696DC /* Accelerate.framework */; };
+		FEDF46A11540734C005696DC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDF469C1540734C005696DC /* QuartzCore.framework */; };
+		FEDF46A21540734C005696DC /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDF469D1540734C005696DC /* QuickLook.framework */; };
+		FEDF46A8154073AD005696DC /* SSCameraPreviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = FEDF46A5154073AD005696DC /* SSCameraPreviewView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDF46A9154073AD005696DC /* SSCameraPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF46A6154073AD005696DC /* SSCameraPreviewView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FEEB8EB521A8F5EF001C08EF /* SSCameraView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FE3FB7CB1E02F22400715208 /* SSCameraView.h */; };
+		FEEB8EB821A8F5F2001C08EF /* SSCameraPreviewView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FEDF46A5154073AD005696DC /* SSCameraPreviewView.h */; };
+		FEEB8EC221A8F657001C08EF /* SSCameraConstants.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FEF1673A16AF73330078EB05 /* SSCameraConstants.h */; };
+		FEEB8EC521A8F65B001C08EF /* SSCameraLayoutView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FE3FB7C71E02F22400715208 /* SSCameraLayoutView.h */; };
+		FEEB8EC621A8F671001C08EF /* SSCameraIrisView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FE3FB7C51E02F22400715208 /* SSCameraIrisView.h */; };
+		FEEF1FC21E0ED1C00049E65C /* SSCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEF1FC11E0ED1C00049E65C /* SSCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEEF1FC31E0ED31B0049E65C /* SSCamera.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FEEF1FC11E0ED1C00049E65C /* SSCamera.h */; };
+		FEF1673C16AF73330078EB05 /* SSCameraConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = FEF1673A16AF73330078EB05 /* SSCameraConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEF1673D16AF73330078EB05 /* SSCameraConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF1673B16AF73330078EB05 /* SSCameraConstants.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE3FB7E51E02F2F200715208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE4AD5011836767300C44426 /* SSGraphics.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FEFDCFD818364D2400B941E2;
+			remoteInfo = SSGraphics;
+		};
+		FE3FB7E71E02F76000715208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE4AD5011836767300C44426 /* SSGraphics.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FEFDD034183656B400B941E2;
+			remoteInfo = graphics;
+		};
+		FE4AD5091836767300C44426 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE4AD5011836767300C44426 /* SSGraphics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FEFDCFD918364D2400B941E2;
+			remoteInfo = SSGraphics;
+		};
+		FE4AD50D1836767300C44426 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE4AD5011836767300C44426 /* SSGraphics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FEFDD035183656B400B941E2;
+			remoteInfo = graphics;
+		};
+		FE55CED6190E9555007827A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE55CED1190E9555007827A0 /* SSBase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FE55CCA2190E8A70007827A0;
+			remoteInfo = SSBase;
+		};
+		FE55CED8190E9555007827A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE55CED1190E9555007827A0 /* SSBase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FE55CCD4190E8AA1007827A0;
+			remoteInfo = base;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FEDAD50C172B65B00072802E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				FEEF1FC31E0ED31B0049E65C /* SSCamera.h in CopyFiles */,
+				FEEB8EC221A8F657001C08EF /* SSCameraConstants.h in CopyFiles */,
+				FE246F3921E347D900A2F251 /* SSCameraErrors.h in CopyFiles */,
+				FEEB8EC621A8F671001C08EF /* SSCameraIrisView.h in CopyFiles */,
+				FEEB8EC521A8F65B001C08EF /* SSCameraLayoutView.h in CopyFiles */,
+				FEEB8EB821A8F5F2001C08EF /* SSCameraPreviewView.h in CopyFiles */,
+				FEEB8EB521A8F5EF001C08EF /* SSCameraView.h in CopyFiles */,
+				FEB17DD41748ECB800A0B834 /* SSCameraViewController.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FE246F3221E3465500A2F251 /* SSCameraErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSCameraErrors.h; sourceTree = "<group>"; };
+		FE246F3321E3465500A2F251 /* SSCameraErrors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSCameraErrors.m; sourceTree = "<group>"; };
+		FE3FB7C31E02F22400715208 /* SSCameraButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCameraButton.h; sourceTree = "<group>"; };
+		FE3FB7C41E02F22400715208 /* SSCameraButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCameraButton.m; sourceTree = "<group>"; };
+		FE3FB7C51E02F22400715208 /* SSCameraIrisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCameraIrisView.h; sourceTree = "<group>"; };
+		FE3FB7C61E02F22400715208 /* SSCameraIrisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCameraIrisView.m; sourceTree = "<group>"; };
+		FE3FB7C71E02F22400715208 /* SSCameraLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCameraLayoutView.h; sourceTree = "<group>"; };
+		FE3FB7C81E02F22400715208 /* SSCameraLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCameraLayoutView.m; sourceTree = "<group>"; };
+		FE3FB7CB1E02F22400715208 /* SSCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCameraView.h; sourceTree = "<group>"; };
+		FE3FB7CC1E02F22400715208 /* SSCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCameraView.m; sourceTree = "<group>"; };
+		FE4AD5011836767300C44426 /* SSGraphics.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SSGraphics.xcodeproj; path = ../SSGraphics/SSGraphics.xcodeproj; sourceTree = "<group>"; };
+		FE55CED1190E9555007827A0 /* SSBase.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SSBase.xcodeproj; path = ../SSBase/SSBase.xcodeproj; sourceTree = "<group>"; };
+		FE566B2F1541A5BC000CA0C6 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		FE711F8C1BFE953D0053DCAC /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		FE7CC2DC2200E0040068FB16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FE7CC2DE2200E00C0068FB16 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FEAE78832205BF0900A19171 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/SSCameraDeviceChooser.strings; sourceTree = "<group>"; };
+		FEB17DCF1748ECAF00A0B834 /* SSCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCameraViewController.h; sourceTree = "<group>"; };
+		FEB17DD01748ECAF00A0B834 /* SSCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCameraViewController.m; sourceTree = "<group>"; };
+		FEBF203421A39C8C0076ACD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SSCameraDeviceChooser.xib; sourceTree = "<group>"; };
+		FEBF203621A39D110076ACD8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/SSCameraDeviceChooser.strings; sourceTree = "<group>"; };
+		FEC3858A17ECB478009B0904 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FEDAD50E172B65B00072802E /* libcamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcamera.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDAD50F172B65B00072802E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEDAD513172B65B00072802E /* camera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "camera-Prefix.pch"; sourceTree = "<group>"; };
+		FEDDB707162546B300DCBCF1 /* SSCameraDeviceChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCameraDeviceChooser.h; sourceTree = "<group>"; };
+		FEDDB708162546B300DCBCF1 /* SSCameraDeviceChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCameraDeviceChooser.m; sourceTree = "<group>"; };
+		FEDEEC2717494F920063902C /* SSCameraPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCameraPanel.h; sourceTree = "<group>"; };
+		FEDEEC2817494F920063902C /* SSCameraPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCameraPanel.m; sourceTree = "<group>"; };
+		FEDEEC2B1749558C0063902C /* SSCameraWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCameraWindowController.h; sourceTree = "<group>"; };
+		FEDEEC2C1749558C0063902C /* SSCameraWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCameraWindowController.m; sourceTree = "<group>"; };
+		FEDF4676154072E7005696DC /* SSCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDF4679154072E7005696DC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FEDF467C154072E7005696DC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FEDF467D154072E7005696DC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FEDF467E154072E7005696DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEDF4681154072E7005696DC /* SSCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSCamera-Info.plist"; sourceTree = "<group>"; };
+		FEDF4685154072E7005696DC /* SSCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSCamera-Prefix.pch"; sourceTree = "<group>"; };
+		FEDF469A1540734C005696DC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		FEDF469C1540734C005696DC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FEDF469D1540734C005696DC /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		FEDF46A5154073AD005696DC /* SSCameraPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCameraPreviewView.h; sourceTree = "<group>"; };
+		FEDF46A6154073AD005696DC /* SSCameraPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCameraPreviewView.m; sourceTree = "<group>"; };
+		FEEF1FC11E0ED1C00049E65C /* SSCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCamera.h; sourceTree = "<group>"; };
+		FEF1673A16AF73330078EB05 /* SSCameraConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCameraConstants.h; sourceTree = "<group>"; };
+		FEF1673B16AF73330078EB05 /* SSCameraConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCameraConstants.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEDAD50B172B65B00072802E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3FB7E91E02F77100715208 /* libgraphics.a in Frameworks */,
+				FE2593EE1C26147E0035B174 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDF4672154072E7005696DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2593ED1C26147E0035B174 /* Foundation.framework in Frameworks */,
+				FEDF467A154072E7005696DC /* Cocoa.framework in Frameworks */,
+				FEC3858B17ECB478009B0904 /* AVFoundation.framework in Frameworks */,
+				FEDF469F1540734C005696DC /* Accelerate.framework in Frameworks */,
+				FEDF46A11540734C005696DC /* QuartzCore.framework in Frameworks */,
+				FEDF46A21540734C005696DC /* QuickLook.framework in Frameworks */,
+				FE55CEDC190E9563007827A0 /* SSBase.framework in Frameworks */,
+				FE4AD5111836771100C44426 /* SSGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE4AD5021836767300C44426 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE4AD50A1836767300C44426 /* SSGraphics.framework */,
+				FE4AD50E1836767300C44426 /* libgraphics.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE55CED2190E9555007827A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE55CED7190E9555007827A0 /* SSBase.framework */,
+				FE55CED9190E9555007827A0 /* libbase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEBF203521A39CDF0076ACD8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FEEF1FC11E0ED1C00049E65C /* SSCamera.h */,
+				FE3FB7C31E02F22400715208 /* SSCameraButton.h */,
+				FE3FB7C41E02F22400715208 /* SSCameraButton.m */,
+				FEF1673A16AF73330078EB05 /* SSCameraConstants.h */,
+				FEF1673B16AF73330078EB05 /* SSCameraConstants.m */,
+				FEDDB707162546B300DCBCF1 /* SSCameraDeviceChooser.h */,
+				FEDDB708162546B300DCBCF1 /* SSCameraDeviceChooser.m */,
+				FE246F3221E3465500A2F251 /* SSCameraErrors.h */,
+				FE246F3321E3465500A2F251 /* SSCameraErrors.m */,
+				FE3FB7C51E02F22400715208 /* SSCameraIrisView.h */,
+				FE3FB7C61E02F22400715208 /* SSCameraIrisView.m */,
+				FE3FB7C71E02F22400715208 /* SSCameraLayoutView.h */,
+				FE3FB7C81E02F22400715208 /* SSCameraLayoutView.m */,
+				FEDEEC2717494F920063902C /* SSCameraPanel.h */,
+				FEDEEC2817494F920063902C /* SSCameraPanel.m */,
+				FEDF46A5154073AD005696DC /* SSCameraPreviewView.h */,
+				FEDF46A6154073AD005696DC /* SSCameraPreviewView.m */,
+				FE3FB7CB1E02F22400715208 /* SSCameraView.h */,
+				FE3FB7CC1E02F22400715208 /* SSCameraView.m */,
+				FEB17DCF1748ECAF00A0B834 /* SSCameraViewController.h */,
+				FEB17DD01748ECAF00A0B834 /* SSCameraViewController.m */,
+				FEDEEC2B1749558C0063902C /* SSCameraWindowController.h */,
+				FEDEEC2C1749558C0063902C /* SSCameraWindowController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		FEDAD511172B65B00072802E /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				FEEB903821A9010B001C08EF /* Classes */,
+				FEDAD512172B65B00072802E /* Supporting Files */,
+			);
+			path = camera;
+			sourceTree = "<group>";
+		};
+		FEDAD512172B65B00072802E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEDAD513172B65B00072802E /* camera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEDF466A154072E7005696DC = {
+			isa = PBXGroup;
+			children = (
+				FEDF467F154072E7005696DC /* SSCamera */,
+				FEDAD511172B65B00072802E /* camera */,
+				FEDF4678154072E7005696DC /* Frameworks */,
+				FEDF4677154072E7005696DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEDF4677154072E7005696DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEDF4676154072E7005696DC /* SSCamera.framework */,
+				FEDAD50E172B65B00072802E /* libcamera.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEDF4678154072E7005696DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE55CED1190E9555007827A0 /* SSBase.xcodeproj */,
+				FE4AD5011836767300C44426 /* SSGraphics.xcodeproj */,
+				FEC3858A17ECB478009B0904 /* AVFoundation.framework */,
+				FEDF469A1540734C005696DC /* Accelerate.framework */,
+				FEDF4679154072E7005696DC /* Cocoa.framework */,
+				FE566B2F1541A5BC000CA0C6 /* OpenGL.framework */,
+				FEDF469C1540734C005696DC /* QuartzCore.framework */,
+				FEDF469D1540734C005696DC /* QuickLook.framework */,
+				FEDAD50F172B65B00072802E /* Foundation.framework */,
+				FEDF467B154072E7005696DC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEDF467B154072E7005696DC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEDF467C154072E7005696DC /* AppKit.framework */,
+				FEDF467D154072E7005696DC /* CoreData.framework */,
+				FEDF467E154072E7005696DC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FEDF467F154072E7005696DC /* SSCamera */ = {
+			isa = PBXGroup;
+			children = (
+				FEBF203521A39CDF0076ACD8 /* Classes */,
+				FEDF4680154072E7005696DC /* Supporting Files */,
+			);
+			path = SSCamera;
+			sourceTree = "<group>";
+		};
+		FEDF4680154072E7005696DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE7CC2DB2200E0040068FB16 /* Localizable.strings */,
+				FE8EB0C316969D090014C1E3 /* SSCameraDeviceChooser.xib */,
+				FEDF4681154072E7005696DC /* SSCamera-Info.plist */,
+				FEDF4685154072E7005696DC /* SSCamera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEEB903821A9010B001C08EF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FE711F8C1BFE953D0053DCAC /* camera.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FEDF4673154072E7005696DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3FB7CF1E02F22400715208 /* SSCameraButton.h in Headers */,
+				FEDDB709162546B300DCBCF1 /* SSCameraDeviceChooser.h in Headers */,
+				FEDF46A8154073AD005696DC /* SSCameraPreviewView.h in Headers */,
+				FEEF1FC21E0ED1C00049E65C /* SSCamera.h in Headers */,
+				FEF1673C16AF73330078EB05 /* SSCameraConstants.h in Headers */,
+				FEB17DD11748ECAF00A0B834 /* SSCameraViewController.h in Headers */,
+				FE246F3421E3465500A2F251 /* SSCameraErrors.h in Headers */,
+				FE3FB7D51E02F22400715208 /* SSCameraLayoutView.h in Headers */,
+				FEDEEC2917494F920063902C /* SSCameraPanel.h in Headers */,
+				FE3FB7DB1E02F22400715208 /* SSCameraView.h in Headers */,
+				FE3FB7D21E02F22400715208 /* SSCameraIrisView.h in Headers */,
+				FEDEEC2D1749558C0063902C /* SSCameraWindowController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FEDAD50D172B65B00072802E /* camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEDAD51E172B65B00072802E /* Build configuration list for PBXNativeTarget "camera" */;
+			buildPhases = (
+				FEDAD50A172B65B00072802E /* Sources */,
+				FEDAD50B172B65B00072802E /* Frameworks */,
+				FEDAD50C172B65B00072802E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE3FB7E81E02F76000715208 /* PBXTargetDependency */,
+			);
+			name = camera;
+			productName = camerabarcodescanner;
+			productReference = FEDAD50E172B65B00072802E /* libcamera.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FEDF4675154072E7005696DC /* SSCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEDF468B154072E7005696DC /* Build configuration list for PBXNativeTarget "SSCamera" */;
+			buildPhases = (
+				FEDF4671154072E7005696DC /* Sources */,
+				FEDF4672154072E7005696DC /* Frameworks */,
+				FEDF4673154072E7005696DC /* Headers */,
+				FEDF4674154072E7005696DC /* Resources */,
+				FE260F781543746B00ADBE7F /* Localize */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE3FB7E61E02F2F200715208 /* PBXTargetDependency */,
+			);
+			name = SSCamera;
+			productName = SSCameraBarcodeScanner;
+			productReference = FEDF4676154072E7005696DC /* SSCamera.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEDF466C154072E7005696DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Dante Sabatier";
+			};
+			buildConfigurationList = FEDF466F154072E7005696DC /* Build configuration list for PBXProject "SSCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+				pt,
+				it,
+				Base,
+			);
+			mainGroup = FEDF466A154072E7005696DC;
+			productRefGroup = FEDF4677154072E7005696DC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FE55CED2190E9555007827A0 /* Products */;
+					ProjectRef = FE55CED1190E9555007827A0 /* SSBase.xcodeproj */;
+				},
+				{
+					ProductGroup = FE4AD5021836767300C44426 /* Products */;
+					ProjectRef = FE4AD5011836767300C44426 /* SSGraphics.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FEDF4675154072E7005696DC /* SSCamera */,
+				FEDAD50D172B65B00072802E /* camera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FE4AD50A1836767300C44426 /* SSGraphics.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SSGraphics.framework;
+			remoteRef = FE4AD5091836767300C44426 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE4AD50E1836767300C44426 /* libgraphics.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libgraphics.a;
+			remoteRef = FE4AD50D1836767300C44426 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE55CED7190E9555007827A0 /* SSBase.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SSBase.framework;
+			remoteRef = FE55CED6190E9555007827A0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE55CED9190E9555007827A0 /* libbase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libbase.a;
+			remoteRef = FE55CED8190E9555007827A0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEDF4674154072E7005696DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8EB0C116969D090014C1E3 /* SSCameraDeviceChooser.xib in Resources */,
+				FE7CC2DD2200E0040068FB16 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FE260F781543746B00ADBE7F /* Localize */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Localize;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ${SRCROOT}/$PROJECT_NAME\ngenstrings -q -u -s SSLocalizedString -o Base.lproj *.m *.h\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEDAD50A172B65B00072802E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3FB7D71E02F22400715208 /* SSCameraLayoutView.m in Sources */,
+				FE3FB7D11E02F22400715208 /* SSCameraButton.m in Sources */,
+				FEDAD525172B65FA0072802E /* SSCameraConstants.m in Sources */,
+				FEB17DCA1748EC6A00A0B834 /* SSCameraPreviewView.m in Sources */,
+				FE3FB7DD1E02F22400715208 /* SSCameraView.m in Sources */,
+				FE3FB7D41E02F22400715208 /* SSCameraIrisView.m in Sources */,
+				FEB17DD31748ECAF00A0B834 /* SSCameraViewController.m in Sources */,
+				FE246F3621E3465500A2F251 /* SSCameraErrors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDF4671154072E7005696DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDF46A9154073AD005696DC /* SSCameraPreviewView.m in Sources */,
+				FE3FB7D01E02F22400715208 /* SSCameraButton.m in Sources */,
+				FE246F3521E3465500A2F251 /* SSCameraErrors.m in Sources */,
+				FEDDB70A162546B300DCBCF1 /* SSCameraDeviceChooser.m in Sources */,
+				FEF1673D16AF73330078EB05 /* SSCameraConstants.m in Sources */,
+				FE3FB7D61E02F22400715208 /* SSCameraLayoutView.m in Sources */,
+				FEB17DD21748ECAF00A0B834 /* SSCameraViewController.m in Sources */,
+				FEDEEC2A17494F920063902C /* SSCameraPanel.m in Sources */,
+				FE3FB7D31E02F22400715208 /* SSCameraIrisView.m in Sources */,
+				FE3FB7DC1E02F22400715208 /* SSCameraView.m in Sources */,
+				FEDEEC2E1749558C0063902C /* SSCameraWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE3FB7E61E02F2F200715208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSGraphics;
+			targetProxy = FE3FB7E51E02F2F200715208 /* PBXContainerItemProxy */;
+		};
+		FE3FB7E81E02F76000715208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = graphics;
+			targetProxy = FE3FB7E71E02F76000715208 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE7CC2DB2200E0040068FB16 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE7CC2DC2200E0040068FB16 /* Base */,
+				FE7CC2DE2200E00C0068FB16 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		FE8EB0C316969D090014C1E3 /* SSCameraDeviceChooser.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEBF203421A39C8C0076ACD8 /* Base */,
+				FEBF203621A39D110076ACD8 /* es */,
+				FEAE78832205BF0900A19171 /* es */,
+			);
+			name = SSCameraDeviceChooser.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEDAD518172B65B00072802E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DSTROOT = /tmp/camera.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "camera/camera-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEDAD519172B65B00072802E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DSTROOT = /tmp/camera.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "camera/camera-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEDF4689154072E7005696DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FEDF468A154072E7005696DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FEDF468C154072E7005696DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "SSCamera/SSCamera-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sabatiersoftware.sscamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		FEDF468D154072E7005696DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "SSCamera/SSCamera-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sabatiersoftware.sscamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEDAD51E172B65B00072802E /* Build configuration list for PBXNativeTarget "camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDAD518172B65B00072802E /* Debug */,
+				FEDAD519172B65B00072802E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEDF466F154072E7005696DC /* Build configuration list for PBXProject "SSCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDF4689154072E7005696DC /* Debug */,
+				FEDF468A154072E7005696DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEDF468B154072E7005696DC /* Build configuration list for PBXNativeTarget "SSCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDF468C154072E7005696DC /* Debug */,
+				FEDF468D154072E7005696DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEDF466C154072E7005696DC /* Project object */;
+}

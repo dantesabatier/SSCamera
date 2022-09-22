@@ -1,0 +1,27 @@
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "5"; */
+"5.title" = "OK";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "12"; */
+"12.title" = "Cancel";
+
+/* Class = "NSTableColumn"; headerCell.title = "Device"; ObjectID = "44"; */
+"44.headerCell.title" = "Device";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "45"; */
+"45.headerCell.title" = "Name";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "46"; */
+"46.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "47"; */
+"47.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Choose a capture device from the list below."; ObjectID = "152"; */
+"152.title" = "Choose a capture device from the list below.";
+
+/* Class = "NSTextFieldCell"; title = "Capture Devices."; ObjectID = "153"; */
+"153.title" = "Capture Devices.";
+
+/* Class = "NSButtonCell"; title = "Remember this device"; ObjectID = "207"; */
+"207.title" = "Remember this device";
